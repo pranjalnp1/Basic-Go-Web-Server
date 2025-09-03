@@ -30,22 +30,23 @@ basic-go-web-server/
 - Git
 
 ### Setup
-git clone https://github.com/yourusername/Basic-Go-Web-Server.git
-cd Basic-Go-Web-Server
-go mod init basic-go-web-server  # Run only if not already initialized
-go run main.go
-go build
+- git clone https://github.com/yourusername/Basic-Go-Web-Server.git
+- cd Basic-Go-Web-Server
+- go mod init basic-go-web-server  # Run only if not already initialized
+- go run main.go
+- go build
 
-Usage
-Open http://localhost:8080/ to access static files
-Visit http://localhost:8080/hello to see a greeting
-Submit a form to http://localhost:8080/form to view submitted data
+### Usage
+- Open http://localhost:8080/ to access static files
+- Visit http://localhost:8080/hello to see a greeting
+- Submit a form to http://localhost:8080/form to view submitted data
 
-Learning Goals
-Understand HTTP routing in Go
-Serve static files
-Handle GET and POST requests
-Use Go’s net/http standard library
+### Learning Goals
+- Understand HTTP routing in Go
+- Serve static files
+- Handle GET and POST requests
+- Use Go’s net/http standard library
+
 
 
 
